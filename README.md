@@ -15,7 +15,7 @@
 ## Devo criar os componetes fora da pasta "pages" para garantir que esses elemento nao vao se exibidos de formas independentes
 
 
-## sempre que for chama um stile {} primeiro par de chaves acerssa o js e o segundo um obj      
+## sempre que for chama um style {} primeiro par de chaves acerssa o js e o segundo um obj      
     <div 
             style={{
                 backgroundColor: props.preta?"#000":"#fff"
