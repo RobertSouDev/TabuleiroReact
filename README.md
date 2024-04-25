@@ -1,40 +1,25 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+ # Para chega nesse resultado de template: 
+    C:\Users\ASUS\Desktop\projetoSemanaApp>npx create-next-app teste004
+    √ Would you like to use TypeScript? ... No / Yes
+    √ Would you like to use ESLint? ... No / Yes
+    √ Would you like to use Tailwind CSS? ... No / Yes
+    √ Would you like to use `src/` directory? ... No / Yes
+    √ Would you like to use App Router? (recommended) ... No / Yes
+    √ Would you like to customize the default import alias (@/*)? ... No / Yes
+    Creating a new Next.js app in C:\Users\ASUS\Desktop\projetoSemanaApp\teste004.
 
-First, run the development server:
+![Template](public/imgRedme/teste004.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Devo criar os componetes fora da pasta "pages" para garantir que esses elemento nao vao se exibidos de formas independentes
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## sempre que for chama um stile {} primeiro par de chaves acerssa o js e o segundo um obj      
+    <div 
+            style={{
+                backgroundColor: props.preta?"#000":"#fff"
+            }}
+            className={styles.subdivisao}>
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+        </div>
